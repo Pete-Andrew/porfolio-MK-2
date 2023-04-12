@@ -1,0 +1,48 @@
+#contentContainer {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.9);
+    backdrop-filter: blur(18px);
+    width: 50%;
+    margin-top: 10%;
+    box-shadow: 20px 20px 50px rgb(26, 31, 26);
+    /* border-radius: 25px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    width: 100%;
+    height: 50%;
+
+
+}
+
+/* #contentContainer:hover {
+    background-color:  rgba(199, 255, 167, 0.8);
+    transition: 0.3s;
+    box-shadow: 20px 20px 50px rgb(26, 31, 26);
+    backdrop-filter: blur(18px);
+  } */
+
+#pete {
+
+    width: 20vh;
+    height: 20vh;
+    /* background-image: url("../../images/pete-on-dartmoor.jpg"); */
+    background-size: 150% 150%;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+
+    border: 3px solid #7fbe5a;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.emailetc {
+    margin-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
