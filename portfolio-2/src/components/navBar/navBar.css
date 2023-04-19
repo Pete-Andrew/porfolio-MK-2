@@ -1,16 +1,16 @@
 #navBarID {
     background-color: rgba(255, 255, 255, 1);
     backdrop-filter: blur(2px);
-    box-shadow: 20px 20px 50px rgb(99, 97, 97);
+    box-shadow: 0px 5px 5px rgb(230, 228, 228);
 }
 
 .navbar-nav {
     /* dispalys the nav bar as a horizontal menu */
     
-    width:100%;
-    height:30px;
+    /* width:100%; */
+    height: 6vh;
     display:inline-block;    
-    margin-left: 70vw;
+    /* margin-left: 2vw; */
 }
 
 ul {
@@ -18,26 +18,33 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
+    /* margin-left: 70%; */
+    
   }
   
   li {
     float: left;
-
   }
 
+  /* gaps between headings */
   .nav-link {
-    padding-left: 20px;
+    padding-left: 2vw;
   }
+
   
-  li a {
-    display: inline;
-    /* display: block; */
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
+/* .nav-item {
+    padding-left: 2%;
+    padding-right: 2%;
+} */
+
   /* li a:hover {
     background-color: #111;
   } */
+
+  .darwin {
+    width: 40px;  
+    height: auto;
+    /* margin-left: 50%; */
+    margin-right: 50%;  
+   
+  }

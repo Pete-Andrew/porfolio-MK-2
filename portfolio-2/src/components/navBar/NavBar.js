@@ -5,7 +5,9 @@ import "./navBar.css";
 function NavBar() {
   return (
     <nav id="navBarID" className="navbar sticky-top"> 
-      <ul className="navbar-nav" id="menu">
+      
+      <ul className="navbar-nav" >
+        
         <li className="nav-item">
           <NavLink
             to="/"
@@ -55,7 +57,11 @@ function NavBar() {
         </li>
 
       </ul>
+     
+      <img className="darwin" src={require("../images/darwin-flower.png")} alt="darwinLogo"></img>
+      
     </nav>
+    
   );
 }
 
