@@ -1,5 +1,6 @@
 import React from "react";
 import "./homeContainer.css";
+import About from "../about/About";
 
 function HomeContainer() {
   return (
@@ -23,16 +24,11 @@ function HomeContainer() {
           Email
         </a>
       </div>
-
-      <div
-        id="contentContainer"
-        className="container-fluid justify-content-center"
-      >
-        <h1>About Me</h1>
-
-         <img className="picOne" src={require("../../images/cuteKitten.jpg")} alt="picOne"></img>
-        </div>
-      </div>
+      
+      {/* <div className="content">
+         {About()} </div> */}
+      
+   </div>
     
   );
 }

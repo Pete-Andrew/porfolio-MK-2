@@ -1,5 +1,7 @@
 import { Parallax } from "react-parallax";
 import kitten from "./images/cuteKitten.jpg";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 
 const imageOne = () => (
   <Parallax
@@ -9,16 +11,10 @@ const imageOne = () => (
     bgImageAlt="the cat"
     strength={800}
   >
-    <div className="content"></div>
-
-    {/* <div
-      id="contentContainer"
-      className="container-fluid justify-content-center"
-    >
-      <h1>About Me</h1>
-      <img className="picOne" img={kitten} alt="picOne"></img>
-    </div> */}
-
+    <div className="content">
+        {Home()}
+        {/* {About()} */}
+    </div>
   </Parallax>
 );
 
