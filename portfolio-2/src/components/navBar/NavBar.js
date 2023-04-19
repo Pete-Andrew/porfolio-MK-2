@@ -20,6 +20,18 @@ function NavBar() {
           </NavLink>
         </li>
 
+        <li className="nav-item">
+          <NavLink
+            to="About"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            About
+          </NavLink>
+        </li>
+
         <li className="nav-item ">
           <NavLink
             to="Projects"
