@@ -5,5 +5,39 @@
 }
 
 .navbar-nav {
-    margin-left: 90%;
+    /* dispalys the nav bar as a horizontal menu */
+    
+    width:100%;
+    height:30px;
+    display:inline-block;    
+    margin-left: 70vw;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+
+  }
+
+  .nav-link {
+    padding-left: 20px;
+  }
+  
+  li a {
+    display: inline;
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* li a:hover {
+    background-color: #111;
+  } */
