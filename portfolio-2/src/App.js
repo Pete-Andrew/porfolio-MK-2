@@ -8,6 +8,7 @@ import ParallaxImageTwo from "./components/ParallaxImageTwo";
 import ParallaxImageThree from "./components/ParallaxImageThree";
 import TextBoxOne from "./components/TextBoxOne";
 import TextBoxTwo from "./components/TextBoxTwo";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <ParallaxImageTwo />
       <TextBoxTwo />
       <ParallaxImageThree />
-
+      <Footer /> 
     </Router>
   );
 }

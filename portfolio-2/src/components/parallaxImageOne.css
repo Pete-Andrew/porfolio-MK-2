@@ -1,13 +1,14 @@
 .image {
     position: relative;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     height: 100vh;
     width: 100%;
 }

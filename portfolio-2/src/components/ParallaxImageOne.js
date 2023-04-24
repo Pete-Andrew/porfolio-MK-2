@@ -9,7 +9,7 @@ const imageOne = () => (
     blur={0}
     bgImage={Woman}
     bgImageAlt="the cat"
-    strength={1800}
+    strength={800}
   >
     <div className="content">
         {Home()}

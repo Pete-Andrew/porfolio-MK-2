@@ -40,7 +40,19 @@ function NavBar() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            Projects
+            Programming Projects
+          </NavLink>
+        </li>
+
+        <li className="nav-item ">
+          <NavLink
+            to="Contact"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Art Gallery
           </NavLink>
         </li>
 
