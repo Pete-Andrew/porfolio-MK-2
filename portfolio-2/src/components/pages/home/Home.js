@@ -9,7 +9,7 @@ function Home() {
   return (
     <div id="homepage">
       {HomeContainer()};
-      {About()};
+      {/* {About()}; */}
       {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
     </div>
   );

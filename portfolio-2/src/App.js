@@ -4,6 +4,10 @@ import "./App.css";
 import Home from "./components/pages/home/Home";
 import NavBar from "./components/navBar/NavBar";
 import ParralaxImageOne from "./components/ParallaxImageOne";
+import ParallaxImageTwo from "./components/ParallaxImageTwo";
+import ParallaxImageThree from "./components/ParallaxImageThree";
+import TextBoxOne from "./components/TextBoxOne";
+import TextBoxTwo from "./components/TextBoxTwo";
 
 function App() {
   return (
@@ -13,6 +17,11 @@ function App() {
       <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
 
       <ParralaxImageOne />
+      <TextBoxOne />
+      <ParallaxImageTwo />
+      <TextBoxTwo />
+      <ParallaxImageThree />
+
     </Router>
   );
 }

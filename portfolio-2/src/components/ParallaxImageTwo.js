@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import Woman from "./images/medusa-necklace-woman.jpg";
+import Desert from "./images/desert-render.jpg";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 
@@ -7,14 +7,11 @@ const imageOne = () => (
   <Parallax
     className="image"
     blur={0}
-    bgImage={Woman}
+    bgImage={Desert}
     bgImageAlt="the cat"
-    strength={1800}
+    strength={800}
   >
-    <div className="content">
-        {Home()}
-        {/* {About()} */}
-    </div>
+    
   </Parallax>
 );
 
